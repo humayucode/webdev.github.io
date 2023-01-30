@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>university website design</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-responsive.css" />
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/v4-shims.min.js"
+    integrity="sha512-wClfKJfh+9jD9QuJjurS6L5kPvT1vojiGkd2BjQ0aPL6ptsnoNNvCmNwrISYeIoaxKfOmbnI8ti3d/WjKztymQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="styyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images\logo.png" alt="logo" /></a>
+      <div class="nav-links" id="navlink">
+        <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+
+  </section>
+  <!----about us content--->
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>We provide best Education</h1>
+        <p>Education is both the act of teaching knowledge to others and the act of receiving knowledge from someone
+          else. Education also refers to the knowledge received through schooling or instruction and to the institution
+          of teaching as a whole</p>
+          <a href="" class="red-btn">Explore now</a>
+      </div>
+      <div class="about-col">
+        <img src="images/about.jpg" alt="">
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-----footer----->
+  <section class="footer">
+    <h3> About Us</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quo harum quas deserunt, <br> atque nisi
+      ipsa quisquam, ducimus quibusdam ea nemo? Quos nostrum nam ratione non numquam minus labore rerum.</p>
+
+
+    <div class="icons">
+      <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <pre>Made with  <i class="fa fa-heart-o" aria-hidden="true"></i>  tuturials.
+      </pre>
+
+
+  </section>
+
+
+
+  <!---javascript for toggle menu-->
+  <script>
+    var navlink = document.getElementById("navlink");
+    function showmenu() {
+      navlink.style.right = "0";
+    }
+    function hidemenu() {
+      nav.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
